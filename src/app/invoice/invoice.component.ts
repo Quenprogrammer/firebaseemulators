@@ -27,7 +27,8 @@ interface Item {
   standalone: true,
   imports: [
     RouterLink,
-    NgForOf
+    NgForOf,
+    CurrencyPipe
   ],
   templateUrl: './invoice.component.html',
   styleUrl: './invoice.component.scss'
@@ -64,7 +65,7 @@ export class InvoiceComponent implements OnInit{
     this.inquiriesMessage$.subscribe(inquiries => {
       this.invoice = inquiries;
       this.loading = false;
-      console.log('Loaded Transactions:', this.invoice);
+      console.log('Data Loaded:', this.invoice);
     });
   }
 
