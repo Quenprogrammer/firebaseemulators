@@ -1,39 +1,43 @@
 <div class="container">
+  <h1 class="text-center">INVOICE</h1>
+</div>
 
+<div class="container">
   <div class="card mt-5">
     <div class="card-header">
-      Invoice
+      Invoice Details
     </div>
     <div class="card-body">
       <div class="row">
         <div style="text-align: right" class="col-3"><h4 class="card-title">Customer Name</h4></div>
-        <div class="col-6"> <p class="card-text" style="font-size: 18px"></p></div>
-      </div>
-      <div class="row">
-        <div style="text-align: right" class="col-3"><h4 class="card-title">Name</h4></div>
-        <div class="col-6"> <p class="card-text" style="font-size: 18px"></p></div>
+        <div class="col-6">
+          <p class="card-text" style="font-size: 18px">{{ invoice?.customerName }}</p>
+        </div>
       </div>
       <div class="row">
         <div style="text-align: right" class="col-3"><h4 class="card-title">Invoice No</h4></div>
-        <div class="col-6"> <p class="card-text" style="font-size: 18px"></p></div>
+        <div class="col-6">
+          <p class="card-text" style="font-size: 18px">{{ invoice?.invoice }}</p>
+        </div>
       </div>
       <div class="row">
         <div style="text-align: right" class="col-3"><h4 class="card-title">Amount Paid</h4></div>
-        <div class="col-6"> <p class="card-text" style="font-size: 18px"></p></div>
+        <div class="col-6">
+          <p class="card-text" style="font-size: 18px">{{ invoice?.amountPaid | currency: '₦' }}</p>
+        </div>
       </div>
       <div class="row">
         <div style="text-align: right" class="col-3"><h4 class="card-title">Balance Outstanding</h4></div>
-        <div class="col-6"> <p class="card-text" style="font-size: 18px"></p></div>
+        <div class="col-6">
+          <p class="card-text" style="font-size: 18px">{{ invoice?.balanceOutstanding | currency: '₦' }}</p>
+        </div>
       </div>
-
-
 
       <div class="row mt-5">
         <div class="col-auto"><button style="width: 150px" type="button" class="btn btn-primary" routerLink="/customers">Save</button></div>
-        <div class="col-auto"><button style="width: 150px" type="button" class="btn btn-primary" routerLink="/customers">Delete</button></div>
-        <div class="col-auto"><button style="width: 150px" type="button" class="btn btn-primary" routerLink="/customers">Update</button></div>
+        <div class="col-auto"><button style="width: 150px" type="button" class="btn btn-danger" (click)="deleteInvoice()">Delete</button></div>
+        <div class="col-auto"><button style="width: 150px" type="button" class="btn btn-warning" (click)="updateInvoice()">Update</button></div>
       </div>
-
     </div>
   </div>
 </div>
