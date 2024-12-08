@@ -1,2 +1,7 @@
-Web / API server started at 127.0.0.1:4001
-Web / API server started at ::1:4001
+Web / API server started at 127.0.0.1:4000
+Web / API server started at ::1:4000
+Error: ENOENT: no such file or directory, stat 'C:\Users\USER\.cache\firebase\emulators\ui-v1.13.0\client\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\USER\.cache\firebase\emulators\ui-v1.13.0\client\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\USER\.cache\firebase\emulators\ui-v1.13.0\client\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\USER\.cache\firebase\emulators\ui-v1.13.0\client\index.html'
+Error: ENOENT: no such file or directory, stat 'C:\Users\USER\.cache\firebase\emulators\ui-v1.13.0\client\index.html'

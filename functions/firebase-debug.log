@@ -1,0 +1,19 @@
+[debug] [2024-12-05T08:43:37.218Z] ----------------------------------------------------------------------
+[debug] [2024-12-05T08:43:37.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-05T08:43:37.222Z] CLI Version:   13.20.1
+[debug] [2024-12-05T08:43:37.222Z] Platform:      win32
+[debug] [2024-12-05T08:43:37.222Z] Node Version:  v22.2.0
+[debug] [2024-12-05T08:43:37.223Z] Time:          Thu Dec 05 2024 00:43:37 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-05T08:43:37.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-05T08:43:37.350Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-05T08:43:37.351Z] > authorizing via signed-in user (adamsadam3667@gmail.com)
+[debug] [2024-12-05T08:43:37.375Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[debug] [2024-12-05T08:43:37.378Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: 
+[debug] [2024-12-05T08:43:42.392Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\USER\AppData\Roaming\nvm\v22.2.0\node_modules\firebase-tools\lib\utils.js:268:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.

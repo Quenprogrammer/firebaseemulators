@@ -1,0 +1,121 @@
+[debug] [2024-12-08T15:57:09.165Z] ----------------------------------------------------------------------
+[debug] [2024-12-08T15:57:09.167Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-08T15:57:09.167Z] CLI Version:   13.10.1
+[debug] [2024-12-08T15:57:09.168Z] Platform:      win32
+[debug] [2024-12-08T15:57:09.168Z] Node Version:  v18.16.0
+[debug] [2024-12-08T15:57:09.170Z] Time:          Sun Dec 08 2024 07:57:09 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-08T15:57:09.170Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-08T15:57:09.459Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-08T15:57:09.460Z] > authorizing via signed-in user (adamsadam3667@gmail.com)
+[debug] [2024-12-08T15:57:09.775Z] java version "11.0.24" 2024-07-16 LTS
+
+[debug] [2024-12-08T15:57:09.776Z] Java(TM) SE Runtime Environment 18.9 (build 11.0.24+7-LTS-271)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.24+7-LTS-271, mixed mode)
+
+[debug] [2024-12-08T15:57:09.831Z] Parsed Java major version: 11
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub"}}
+[debug] [2024-12-08T15:57:09.872Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.872Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.872Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.872Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.873Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.873Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8980}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8985}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-12-08T15:57:09.884Z] [hub] writing locator at C:\Users\USER\AppData\Local\Temp\hub-real-estate-demo-1067b.json
+[debug] [2024-12-08T15:57:09.897Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.897Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:57:09.897Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8980}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8985}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5901}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-08T15:57:09.920Z] defaultcredentials: writing to file C:\Users\USER\AppData\Roaming\firebase\adamsadam3667_gmail_com_application_default_credentials.json
+[debug] [2024-12-08T15:57:09.942Z] Setting GAC to C:\Users\USER\AppData\Roaming\firebase\adamsadam3667_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\USER\\AppData\\Roaming\\firebase\\adamsadam3667_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-08T15:57:09.946Z] > refreshing access token with scopes: []
+[debug] [2024-12-08T15:57:09.950Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-08T15:57:09.951Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-08T15:57:10.537Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-08T15:57:10.538Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-08T15:57:10.575Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig [none]
+[debug] [2024-12-08T15:57:40.737Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig, {"headers":{},"method":"GET"}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig failed, reason: read ECONNRESET
+[debug] [2024-12-08T15:57:40.739Z] Failed to get Admin SDK config for real-estate-demo-1067b, falling back to cache Failed to get Admin SDK for Firebase project real-estate-demo-1067b. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project real-estate-demo-1067b. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Failed to make request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig","original":{"message":"request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig failed, reason: read ECONNRESET","type":"system","errno":"ECONNRESET","code":"ECONNRESET"},"status":500},"status":500}
+[warn] !  firestore: Cloud Firestore Emulator does not support multiple databases yet. {"metadata":{"emulator":{"name":"firestore"},"message":"Cloud Firestore Emulator does not support multiple databases yet."}}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2024-12-08T15:57:40.774Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-12-08T15:57:40.775Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-12-08T15:57:40.775Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\USER\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.6.jar","--host","127.0.0.1","--port",8980,"--websocket_port",9150,"--project_id","real-estate-demo-1067b","--single_project_mode",true,"--functions_emulator","127.0.0.1:5901"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\USER\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.6.jar\",\"--host\",\"127.0.0.1\",\"--port\",8980,\"--websocket_port\",9150,\"--project_id\",\"real-estate-demo-1067b\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5901\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  pubsub: downloading pubsub-emulator-0.8.2.zip... {"metadata":{"emulator":{"name":"pubsub"},"message":"downloading pubsub-emulator-0.8.2.zip..."}}
+[debug] [2024-12-08T15:57:55.183Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip 
+[debug] [2024-12-08T15:58:07.752Z] *** [apiv2] error from fetch(https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip, {"headers":{},"method":"GET"}): FetchError: request to https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip failed, reason: socket hang up
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[warn] !  Firestore Emulator has exited upon receiving signal: SIGINT 
+[info] i  pubsub: Stopping Pub/Sub Emulator {"metadata":{"emulator":{"name":"pubsub"},"message":"Stopping Pub/Sub Emulator"}}
+[info] i  auth: Stopping Authentication Emulator {"metadata":{"emulator":{"name":"auth"},"message":"Stopping Authentication Emulator"}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2024-12-08T15:58:12.785Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\USER\AppData\Roaming\nvm\v18.16.0\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-12-08T15:58:41.904Z] ----------------------------------------------------------------------
+[debug] [2024-12-08T15:58:41.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-12-08T15:58:41.906Z] CLI Version:   13.10.1
+[debug] [2024-12-08T15:58:41.906Z] Platform:      win32
+[debug] [2024-12-08T15:58:41.907Z] Node Version:  v18.16.0
+[debug] [2024-12-08T15:58:41.908Z] Time:          Sun Dec 08 2024 07:58:41 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-08T15:58:41.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-08T15:58:42.030Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-08T15:58:42.031Z] > authorizing via signed-in user (adamsadam3667@gmail.com)
+[debug] [2024-12-08T15:58:42.195Z] java version "11.0.24" 2024-07-16 LTS
+
+[debug] [2024-12-08T15:58:42.196Z] Java(TM) SE Runtime Environment 18.9 (build 11.0.24+7-LTS-271)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.24+7-LTS-271, mixed mode)
+
+[debug] [2024-12-08T15:58:42.220Z] Parsed Java major version: 11
+[info] i  emulators: Starting emulators: auth, functions, firestore, pubsub {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, pubsub"}}
+[debug] [2024-12-08T15:58:42.236Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.236Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.236Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.236Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.236Z] [pubsub] Pub/Sub Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.236Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8980}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8985}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-12-08T15:58:42.243Z] [hub] writing locator at C:\Users\USER\AppData\Local\Temp\hub-real-estate-demo-1067b.json
+[debug] [2024-12-08T15:58:42.253Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.253Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-12-08T15:58:42.253Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8980}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"pubsub":[{"address":"127.0.0.1","family":"IPv4","port":8985}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5901}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, storage, dataconnect\u001b[22m"}}
+[debug] [2024-12-08T15:58:42.257Z] defaultcredentials: writing to file C:\Users\USER\AppData\Roaming\firebase\adamsadam3667_gmail_com_application_default_credentials.json
+[debug] [2024-12-08T15:58:42.259Z] Setting GAC to C:\Users\USER\AppData\Roaming\firebase\adamsadam3667_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\USER\\AppData\\Roaming\\firebase\\adamsadam3667_gmail_com_application_default_credentials.json"}}
+[debug] [2024-12-08T15:58:42.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig [none]
+[debug] [2024-12-08T15:58:55.756Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig, {"headers":{},"method":"GET"}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig failed, reason: socket hang up
+[debug] [2024-12-08T15:58:55.756Z] Failed to get Admin SDK config for real-estate-demo-1067b, falling back to cache Failed to get Admin SDK for Firebase project real-estate-demo-1067b. Please make sure the project exists and your account has permission to access it. {"name":"FirebaseError","children":[],"exit":2,"message":"Failed to get Admin SDK for Firebase project real-estate-demo-1067b. Please make sure the project exists and your account has permission to access it.","original":{"name":"FirebaseError","children":[],"exit":1,"message":"Failed to make request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig","original":{"message":"request to https://firebase.googleapis.com/v1beta1/projects/real-estate-demo-1067b/adminSdkConfig failed, reason: socket hang up","type":"system","errno":"ECONNRESET","code":"ECONNRESET"},"status":500},"status":500}
+[warn] !  firestore: Cloud Firestore Emulator does not support multiple databases yet. {"metadata":{"emulator":{"name":"firestore"},"message":"Cloud Firestore Emulator does not support multiple databases yet."}}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2024-12-08T15:58:55.770Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-12-08T15:58:55.770Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-12-08T15:58:55.770Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\USER\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.6.jar","--host","127.0.0.1","--port",8980,"--websocket_port",9150,"--project_id","real-estate-demo-1067b","--single_project_mode",true,"--functions_emulator","127.0.0.1:5901"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\USER\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.6.jar\",\"--host\",\"127.0.0.1\",\"--port\",8980,\"--websocket_port\",9150,\"--project_id\",\"real-estate-demo-1067b\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5901\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[info] i  pubsub: downloading pubsub-emulator-0.8.2.zip... {"metadata":{"emulator":{"name":"pubsub"},"message":"downloading pubsub-emulator-0.8.2.zip..."}}
+[debug] [2024-12-08T15:59:07.787Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip 
+[debug] [2024-12-08T15:59:20.752Z] *** [apiv2] error from fetch(https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip, {"headers":{},"method":"GET"}): FetchError: request to https://storage.googleapis.com/firebase-preview-drop/emulator/pubsub-emulator-0.8.2.zip failed, reason: socket hang up
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  firestore: Stopping Firestore Emulator {"metadata":{"emulator":{"name":"firestore"},"message":"Stopping Firestore Emulator"}}
+[warn] !  Firestore Emulator has exited upon receiving signal: SIGINT 
+[info] i  pubsub: Stopping Pub/Sub Emulator {"metadata":{"emulator":{"name":"pubsub"},"message":"Stopping Pub/Sub Emulator"}}
+[info] i  auth: Stopping Authentication Emulator {"metadata":{"emulator":{"name":"auth"},"message":"Stopping Authentication Emulator"}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2024-12-08T15:59:25.785Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\USER\AppData\Roaming\nvm\v18.16.0\node_modules\firebase-tools\lib\utils.js:267:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.

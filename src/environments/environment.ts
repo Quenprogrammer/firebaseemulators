@@ -1,43 +1,15 @@
 export const environment = {
   isProduction: true,
   firebaseApp: {
-    "projectId": "ideas-beli-fantel",
-    "appId": "1:691530488976:web:fa55e267f61496b0db8c15",
-    "storageBucket": "ideas-beli-fantel.appspot.com",
-    "apiKey": "AIzaSyCedYdIUcQ3r8uJ1Aus2R_oNqR5jM-o1ak",
-    "authDomain": "ideas-beli-fantel.firebaseapp.com",
-    "messagingSenderId": "691530488976",
-    "measurementId": "G-1CGBKKQ3BP"
+    "apiKey": "AIzaSyC-r9aGKCwa0dHN8SxkHSp79xHLHXjQSPw",
+    "authDomain": "testing-30e80.firebaseapp.com",
+    "databaseURL": "https://testing-30e80-default-rtdb.firebaseio.com",
+    "projectId": "testing-30e80",
+    "storageBucket": "testing-30e80.appspot.com",
+    "messagingSenderId": "996617703471",
+    "appId": "1:996617703471:web:b6a1c052a452092f0776da",
+    "measurementId": "G-9L8R4CK6S2"
   },
 
-  phoneNumber: {
-    phoneNumber: '+ 234 803 8899 114',
-    number: '+905338899114'
-  },
-  phoneNumber2: {
-    phoneNumber: '+ 234 803 8899 114',
-    number: '+905338236140'
-  },
-  emailAddress: 'support@ideasbelifantel.ng',
-
-  address1: {
-    title: 'Program venue',
-    phoneNumber: '+ 234 803 8899 114',
-    email: 'orlando@example.com',
-    address: '514 S. Magnolia St. Orlando, FL 32806',
-  },
-  address2: {
-    title: 'Beli Technologies Ltd',
-    phoneNumber: '+ 234 803 8899 114',
-    email: 'orlando@example.com',
-    address: '514 S. Magnolia St. Orlando, FL 32806',
-  },
-
-  address3: {
-    title: 'Fantel Business School',
-    phoneNumber: '+ 234 803 8899 114',
-    email: 'orlando@example.com',
-    address: '514 S. Magnolia St. Orlando, FL 32806',
-  },
 
 };
